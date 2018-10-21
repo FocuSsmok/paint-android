@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/color"
+        android:title="Kolor"
+        android:icon="@drawable/ic_palette"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/line"
+        android:title="Linia"
+        android:icon="@drawable/ic_brush"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/clear"
+        android:title="Wyczyść"
+        android:icon="@drawable/ic_action_clear"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/logout"
+        android:title="Wyloguj"
+        android:icon="@drawable/ic_logout"
+        app:showAsAction="ifRoom"
+        />
+    co
+</menu>

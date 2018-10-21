@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1028659918307",
+    "firebase_url": "https://paint-94.firebaseio.com",
+    "project_id": "paint-94",
+    "storage_bucket": "paint-94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028659918307:android:b26492d595f70b5d",
+        "android_client_info": {
+          "package_name": "com.example.przeb.paint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028659918307-gn996kpifd8njdp54b7bs4g0edlboo68.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.przeb.paint",
+            "certificate_hash": "5b2f482e78208810fcd7b3852d3ec7c0cab67d70"
+          }
+        },
+        {
+          "client_id": "1028659918307-gspe5289o9ntdrp4mpssqhemk4u1dbj2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSuLKogFUQR8-eQamO5n_bR9IVEOCZLLo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028659918307-gspe5289o9ntdrp4mpssqhemk4u1dbj2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

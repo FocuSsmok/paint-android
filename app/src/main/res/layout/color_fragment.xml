@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView_red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="66dp"
+        android:text="Czerwony"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar_red"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView_red"
+        android:layout_marginStart="36dp"
+        android:layout_toEndOf="@+id/textView_red"
+        android:max="255" />
+
+    <TextView
+        android:id="@+id/textView_green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_red"
+        android:layout_marginTop="28dp"
+        android:layout_toStartOf="@+id/seekBar_red"
+        android:text="Zielony" />
+
+    <SeekBar
+        android:id="@+id/seekBar_green"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView_green"
+        android:layout_alignStart="@+id/seekBar_red"
+        android:max="255" />
+
+    <TextView
+        android:id="@+id/textView_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView_green"
+        android:layout_below="@+id/textView_green"
+        android:layout_marginTop="28dp"
+        android:text="Niebieski" />
+
+    <SeekBar
+        android:id="@+id/seekBar_blue"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/seekBar_green"
+        android:layout_alignTop="@+id/textView_blue"
+        android:max="255" />
+
+    <View
+        android:id="@+id/colorView"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_alignStart="@+id/textView_blue"
+        android:layout_below="@+id/textView_blue"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginTop="31dp" />
+</RelativeLayout>
